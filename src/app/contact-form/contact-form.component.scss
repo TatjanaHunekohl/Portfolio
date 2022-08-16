@@ -1,0 +1,125 @@
+.contact-sctn {
+    width: 100%; 
+    position: relative; 
+    color: white; 
+    background-color: #478990;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;   
+    padding: 3rem 0;
+    width: 80%; 
+
+    h2 {
+        font-size: 3rem;
+        margin-top: 0;
+    }
+    
+
+    .contact-form {
+
+        .container-textarea {
+            display: flex; 
+            flex-direction: column;
+        }
+
+        input {
+            height: 32px; 
+            background-color: rgba(255, 255, 255, .81);
+            outline: none;
+            border: none; 
+            margin: 0.5rem 0.5rem; 
+        }
+
+        textarea {
+            resize: none; 
+            outline: none; 
+            background-color: rgba(255, 255, 255, .81);
+        }
+    }
+}
+
+.dsgvo-checkbox {
+    font-size: 14px; 
+}
+
+.wave-top {
+    position: absolute;
+    top: -70px;
+}
+
+.btn-row {
+    display: flex; 
+    padding: 1rem 0; 
+}
+
+.submit-btn {
+    height: 32px; 
+    width: 200px; 
+    letter-spacing: 8px;
+    border: none;
+    padding: 0.5rem;
+    background-color: #1c565c;
+    color: white;
+
+    &:hover {
+        cursor: pointer; 
+        background-color: #0d5b64;
+    }
+}
+
+label {
+    margin: 0.5rem 0;
+}
+
+@media (min-width: 429px) {
+    .wave-top {
+        top: -95px; 
+    }
+}
+
+@media (min-width: 630px) {
+    .wave-top {
+        top: -138px; 
+    }
+}
+
+@media (min-width: 800px) {
+    .wrapper {
+        flex-direction: row; 
+
+        .about-me {
+            width: 50%; 
+        }
+
+        .contact-form {
+            width: 35%;
+            margin: 0 auto; 
+        }
+
+        .cntct-description {
+            display: block; 
+        }
+    }
+}
+
+@media (min-width: 835px) {
+    .wave-top {
+        top: -186px; 
+    }
+}
+
+@media (min-width: 980px) {
+    .wave-top {
+        top: -217px; 
+    }
+}
+
+@media (min-width: 1091px) {
+    .wave-top {
+        top: -243px; 
+    }
+}

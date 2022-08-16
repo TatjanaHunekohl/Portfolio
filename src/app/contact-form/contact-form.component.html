@@ -1,0 +1,48 @@
+<div id="contact-me" class="contact-sctn">
+  <img src="assets/img/contact-wave-top.svg" class="wave-top">
+
+  <div class="wrapper">
+    <div class="about-me">
+      <div>
+       <h2>Contact me</h2>
+       <p class="d-none cntct-description">Use this contact form to get in touch or leave a message.</p>
+      </div>
+    </div>
+    <div class="contact-form">
+
+
+      <form action="https://tatjana-hunekohl.developerakademie.net/portfolio/send_mail.php" method="POST"> 
+
+
+        <div>
+          <label for="name">Name</label>
+          <input required id="name" name="name" type="text">
+        </div>
+
+        <div>
+          <label for="e-mail">E-Mail</label>
+          <input required id="e-mail" name="email" type="email">
+        </div>
+
+        <div class="container-textarea">
+          <label for="message">Your message</label>
+          <textarea required id="message" name="message"  minlength="20" maxlength="2000" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="dsgvo-checkbox">
+          <input required id="checkbox" type="checkbox">
+          <label for="checkbox">Mit der Erhebung, Verarbeitung und Nutzung meiner personenbezogenen Daten zum Zweck der
+            Kontaktaufnahme auf meine Anfrage erkläre ich mich einverstanden. Ich kann mein Einverständnis jederzeit
+            ohne Angabe von Gründen widerrufen.</label>
+        </div>
+
+        <div class="btn-row">
+          <button required type="submit" class="submit-btn">Send</button>
+        </div>
+        
+      </form>
+
+
+    </div>
+  </div>
+</div>
