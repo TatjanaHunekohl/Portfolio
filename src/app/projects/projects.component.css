@@ -1,0 +1,177 @@
+.project-sctn {
+  width: 100%;
+  overflow: hidden;
+}
+
+h2 {
+  width: 80%;
+  margin: 48px auto;
+  font-size: 3rem;
+}
+
+.project-wrapper {
+  width: 100%;
+  position: relative;
+  padding: 4rem 0;
+}
+
+.project-wrapper .wave-top {
+  position: absolute;
+  width: 100vw;
+  top: -66px;
+  z-index: -1;
+}
+
+.project-wrapper .wave-bottom {
+  z-index: -3;
+  position: absolute;
+  bottom: -62px;
+  width: 100vw;
+}
+
+.white-bg-project {
+  padding: 10rem 0;
+}
+
+.go-to-browser {
+  border: none;
+  background-color: #478990;
+  font-weight: 300;
+  margin: 1rem 1rem 1rem 0;
+  padding: 0.4rem;
+}
+
+.go-to-browser a {
+  color: white;
+  text-decoration: none;
+}
+
+.go-to-browser:hover {
+  cursor: pointer;
+  background-color: #2e7a84;
+}
+
+.width80 {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.column-reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.btn-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.project-pic-all {
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 350px;
+  min-height: 270px;
+  height: auto;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.project-presentation {
+  height: 150px;
+}
+
+.project-description {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.project-description .tech-stack {
+  margin: 1rem 0;
+}
+
+@media (min-width: 430px) {
+  .wave-top {
+    top: -92px !important;
+  }
+  .wave-bottom {
+    bottom: -86px !important;
+  }
+}
+
+@media (min-width: 477px) {
+  .wave-top {
+    top: -101px !important;
+  }
+  .wave-bottom {
+    bottom: -103px !important;
+  }
+}
+
+@media (min-width: 715px) {
+  .wave-top {
+    top: -154px !important;
+  }
+  .wave-bottom {
+    bottom: -112px !important;
+  }
+}
+
+@media (min-width: 800px) {
+  .about-me-pic {
+    height: 300px;
+  }
+  .width80 {
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 2rem;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .text-align-right {
+    text-align: right;
+  }
+  .project-presentation {
+    height: 200px;
+  }
+  .width80 {
+    padding: 2rem;
+  }
+  .wave-bottom {
+    bottom: -142px !important;
+  }
+}
+
+@media (min-width: 1094px) {
+  .wave-top {
+    top: -223px !important;
+  }
+  .wave-bottom {
+    bottom: -170px !important;
+  }
+}
+/*# sourceMappingURL=projects.component.css.map */

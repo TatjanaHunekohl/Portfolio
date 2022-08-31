@@ -1,0 +1,92 @@
+/* ubuntu-mono-regular - latin */
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/ubuntu-mono-v15-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("assets/fonts/ubuntu-mono-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/ubuntu-mono-v15-latin-regular.woff2") format("woff2"), url("assets/fonts/ubuntu-mono-v15-latin-regular.woff") format("woff"), url("assets/fonts/ubuntu-mono-v15-latin-regular.ttf") format("truetype"), url("assets/fonts/ubuntu-mono-v15-latin-regular.svg#UbuntuMono") format("svg");
+  /* Legacy iOS */
+}
+
+/* ubuntu-mono-700 - latin */
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url("assets/fonts/ubuntu-mono-v15-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("assets/fonts/ubuntu-mono-v15-latin-700.eot?#iefix") format("embedded-opentype"), url("assets/fonts/ubuntu-mono-v15-latin-700.woff2") format("woff2"), url("assets/fonts/ubuntu-mono-v15-latin-700.woff") format("woff"), url("assets/fonts/ubuntu-mono-v15-latin-700.ttf") format("truetype"), url("assets/fonts/ubuntu-mono-v15-latin-700.svg#UbuntuMono") format("svg");
+  /* Legacy iOS */
+}
+
+/* ubuntu-300 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("assets//fonts/ubuntu-v20-latin-300.woff2") format("woff2"), url("assets//fonts/ubuntu-v20-latin-300.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ubuntu-regular - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("assets//fonts/ubuntu-v20-latin-regular.woff2") format("woff2"), url("assets//fonts/ubuntu-v20-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ubuntu-500 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("assets//fonts/ubuntu-v20-latin-500.woff2") format("woff2"), url("assets//fonts/ubuntu-v20-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ubuntu-700 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("assets//fonts/ubuntu-v20-latin-700.woff2") format("woff2"), url("assets//fonts/ubuntu-v20-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Ubuntu';
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Ubuntu Mono';
+}
+
+.color1 {
+  background-color: #F6F6F6;
+}
+
+.d-none {
+  display: none;
+}
+
+.font-size-4rem {
+  font-size: 4rem;
+  font-family: 'Ubuntu Mono';
+}
+
+.wrapper-app-root {
+  width: 100vw;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,6 @@
 .navbar-wrapper {
     width: 100vw;     
-    overflow-x: hidden;
+    height: 10vh; 
 }
 
 .toggle-container {
@@ -79,7 +79,7 @@
     }
       a:hover {
         cursor: pointer;
-        border-bottom: 3px solid #478990;
+        border-bottom: 3px solid var(--color1);
     } 
 }
 
