@@ -1,3 +1,4 @@
+
 .keyvisual-wrapper {
     width: 100%;
 }
@@ -189,6 +190,10 @@
 
     .keyvisual {
         flex-direction: row;
+
+        &::after {
+            height: 90%; 
+        }
     }
 
     .right {
@@ -233,6 +238,13 @@
             z-index: 1;
         }
     }
+
+    .dots2 {
+        height: 174px;
+        position: absolute;
+        top: -35px;
+        left: 57%;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -241,7 +253,7 @@
     }
 
     .keyvisual-wrapper {
-        padding: 2rem 0; 
+        padding: 8rem 0; 
     }
 }
 
@@ -259,3 +271,4 @@
     }
     
 }
+
