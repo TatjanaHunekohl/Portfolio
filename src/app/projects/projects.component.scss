@@ -1,3 +1,4 @@
+
 .padding-l-8 {
     padding-left: 8%;
 }
@@ -23,6 +24,11 @@ h2 {
     width: 80%; 
     margin: 48px auto;
     font-size: 3rem; 
+  
+}
+
+#projects {
+    max-width: 1200px;
 }
 
 .project-wrapper {
@@ -33,6 +39,11 @@ h2 {
     .tech-icons {
         height: 30px; 
         padding: 8px 1rem 8px 0; 
+    }
+
+    .tech-icons-reverse-padding {
+        height: 30px; 
+        padding: 8px 0 8px 1rem; 
     }
 
     .wave-top {
@@ -80,6 +91,7 @@ h2 {
 
 .width80 {
     width: 80%; 
+    max-width: 1200px;
     margin: 0 auto; 
     display: flex; 
     flex-direction: column;
@@ -179,7 +191,7 @@ h2 {
         margin: 0 auto; 
         display: flex; 
         flex-direction: row;
-        padding: 2rem; 
+        padding: 2rem 0; 
         justify-content: space-evenly;
     }
     .text-align-right {
@@ -188,10 +200,6 @@ h2 {
 
     .project-presentation {
         height: 200px; 
-    }
-
-    .width80 {
-        padding: 2rem; 
     }
     
     .wave-bottom {
