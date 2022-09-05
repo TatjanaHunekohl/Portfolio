@@ -3,6 +3,49 @@
     position: relative; 
     color: white; 
     background-color: var(--color1);
+    position: relative; 
+}
+
+.about-me-sctn {
+    display: flex; 
+    flex-direction: column; 
+    position: relative; 
+    width: 100%; 
+
+    .about-me {
+        filter: grayscale(1); 
+        width: 250px; 
+        border-radius: 37% 63% 19% 81% / 46% 40% 60% 54% ;
+        object-fit: cover;
+        position: relative;
+        z-index: 3; 
+        padding: 3rem 0; 
+        margin: 0 auto; 
+    }
+
+    .blob3 {
+        position: absolute;
+        left: 8%;
+        height: 318px;
+        top: 29%;
+        z-index: 3;
+    }
+    
+    .dots-svg {
+        height: 112px;
+        position: absolute;
+        left: -9%;
+        bottom: 33px;
+    }
+}
+
+
+h2 {
+    font-size: 3rem;
+    width: 80%;
+    margin: 0 auto;
+    position: relative; 
+    z-index: 4; 
 }
 
 
@@ -44,6 +87,11 @@
 
 .dsgvo-checkbox {
     font-size: 14px; 
+
+    #checkbox {
+        height: 14px; 
+        margin: 8px 0; 
+    }
 }
 
 .wave-top {
@@ -91,7 +139,7 @@ label {
     .wrapper {
         flex-direction: row; 
 
-        .about-me {
+        .about-me-sctn {
             width: 50%; 
         }
 
@@ -120,6 +168,6 @@ label {
 
 @media (min-width: 1091px) {
     .wave-top {
-        top: -243px; 
+        top: -278px; 
     }
 }

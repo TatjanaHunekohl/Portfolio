@@ -1,6 +1,6 @@
 .project-sctn {
     width: 100%; 
-    overflow: hidden; 
+    overflow: visible; 
 }
 
 h2 {
@@ -12,7 +12,12 @@ h2 {
 .project-wrapper {
     width: 100%;
     position: relative; 
-    padding: 4rem 0;
+    padding: 1rem 0;
+
+    .tech-icons {
+        height: 30px; 
+        padding: 8px 1rem 8px 0; 
+    }
 
     .wave-top {
         position: absolute;
@@ -32,6 +37,8 @@ h2 {
 .white-bg-project {
         padding: 10rem 0; 
 } 
+
+
 
 .go-to-browser {
     
@@ -79,11 +86,20 @@ h2 {
     min-width: 350px;
     min-height: 270px; 
     height: auto; 
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; 
+}
+
+.img-box {
+    width: 50%; 
 }
 
 .project-presentation {
     height: 150px; 
+    transition: 0.3 ease-in-out; 
+
+    &:hover {
+        transform: scale(1.1); 
+    }
 }
 
 
@@ -91,6 +107,7 @@ h2 {
 .project-description {
     padding-left: 8%; 
     padding-right: 8%; 
+    width: 50%; 
 
     .tech-stack {
         margin: 1rem 0; 
@@ -133,6 +150,14 @@ h2 {
         height: 300px;
     }
 
+    .flush-right {
+        margin: 1rem 0 1rem 1rem !important; 
+    }
+
+    .flex-end {
+        justify-content: flex-end; 
+    }
+
     .width80 {
         width: 80%; 
         margin: 0 auto; 
@@ -164,6 +189,51 @@ h2 {
     }
     .wave-bottom {
         bottom: -170px !important; 
+    }
+
+    .project-presentation {
+        height: 250px; 
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .wave-bottom {
+        bottom: -249px !important; 
+    }
+}
+
+
+@media (min-width: 1650px) {
+    .wave-top {
+        top: -356px !important;
+    }
+
+    .white-bg-project {
+        padding: 18rem 0; 
+    }
+}
+
+@media (min-width: 1900px) {
+    .wave-bottom {
+        bottom: -288px !important; 
+    }
+}
+
+@media (min-width: 2250px) {
+    .wave-bottom {
+        bottom: -427px !important; 
+    }
+
+    .white-bg-project {
+        padding: 25rem 0; 
+    }
+}
+
+
+@media (min-width: 2570px) {
+    .wave-top {
+        top: -566px !important; 
     }
 }
 

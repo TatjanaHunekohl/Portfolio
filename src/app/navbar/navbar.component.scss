@@ -96,3 +96,10 @@
         display: none; 
     }
 }
+
+@media (min-width: 1300px) {
+    .navbar-wrapper {
+        font-size: 1.5rem;  
+    }
+  
+}
