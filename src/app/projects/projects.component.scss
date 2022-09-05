@@ -1,15 +1,4 @@
 
-.padding-l-8 {
-    padding-left: 8%;
-}
-
-.padding-r-8 {
-    padding-right: 8%;
-}
-
-.flex-end {
-    justify-content: flex-end;
-}
 
 .flex-start {
     justify-content: flex-start;
@@ -39,11 +28,6 @@ h2 {
     .tech-icons {
         height: 30px; 
         padding: 8px 1rem 8px 0; 
-    }
-
-    .tech-icons-reverse-padding {
-        height: 30px; 
-        padding: 8px 0 8px 1rem; 
     }
 
     .wave-top {
@@ -118,24 +102,18 @@ h2 {
 }
 
 .img-box {
-    width: 50%; 
     display: flex; 
 }
 
 .project-presentation {
     height: 150px; 
     transition: 0.3 ease-in-out; 
-
-    &:hover {
-        transform: scale(1.1); 
-    }
 }
 
 
 
 .project-description {
-    
-    width: 50%; 
+    width: 80%; 
 
     .tech-stack {
         margin: 1rem 0; 
@@ -174,6 +152,23 @@ h2 {
 
 @media (min-width: 800px) {
 
+    .project-description {
+        width: 50%; 
+    }
+
+    .img-box {
+        width: 50%; 
+    }
+
+    .padding-l-8 {
+        padding-left: 12%;
+    }
+    
+    .padding-r-8 {
+        padding-right: 12%;
+    }
+    
+
     .about-me-pic {
         height: 300px;
     }
@@ -199,11 +194,18 @@ h2 {
     }
 
     .project-presentation {
-        height: 200px; 
+        height: 216px; 
     }
     
     .wave-bottom {
         bottom: -142px !important; 
+    }
+
+    .project-wrapper {
+        .tech-icons-reverse-padding {
+            height: 30px; 
+            padding: 8px 0 8px 1rem; 
+        }
     }
 }
 
@@ -241,6 +243,10 @@ h2 {
 @media (min-width: 1900px) {
     .wave-bottom {
         bottom: -288px !important; 
+    }
+
+    .project-presentation {
+        height: 300px; 
     }
 }
 
