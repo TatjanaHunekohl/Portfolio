@@ -85,15 +85,6 @@ h1, h2, h3 {
   font-family: 'Ubuntu Mono';
 }
 
-.wrapper-app-root {
-  width: 100vw;
-  overflow-x: hidden;
-}
 
-@media (min-width: 1500px) {
-  body {
-    font-size: 18px; 
-  }
-}
 /*# sourceMappingURL=styles.css.map */
 
