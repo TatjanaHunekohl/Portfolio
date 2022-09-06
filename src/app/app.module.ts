@@ -11,6 +11,8 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 
 import { FooterComponent } from './footer/footer.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { LegalNoteComponent } from './legal-note/legal-note.component';
+import { ImprintComponent } from './imprint/imprint.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { AboutMeComponent } from './about-me/about-me.component';
     ProjectsComponent,
     ContactFormComponent,
     FooterComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    LegalNoteComponent,
+    ImprintComponent
   ],
   imports: [
     BrowserModule,
