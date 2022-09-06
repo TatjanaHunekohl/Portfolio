@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="assets/img/icon.png">
-    <title>Tatjana Hunekohl</title>
-    <link rel="" href="styles.scss">
+    <title>Document</title>
+
     <style>
         body {
             font-family: 'Arial';
@@ -22,14 +20,13 @@
         }
 
         .success-box {
-            padding: 0 .5rem;
+            min-width: 33%; 
+            padding: 0 2rem;
             display: flex;
             flex-direction: column;
-            align-items: center;
             width: max-content;
             margin: 8rem auto;
             background-color: white;
-            height: 300px;
             border-radius: 4px;
             position: relative;
             -moz-box-shadow: 0 0 3px #ccc;
@@ -38,25 +35,18 @@
         }
 
         h1 {
+            color: #478990;
             font-size: 0.9rem;
-            margin: 5rem 0;
+            margin: 2rem 0;
         }
 
-        .img-box {
-            background-image: url('assets/img/double-tick.svg');
-            background-repeat: no-repeat;
-            background-position: center;
-            padding: 0.3rem;
-            height: 60px;
-            width: 60px;
-            background-color: #478990;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            top: -27px;
-            border-radius: 100%;
-        }
+       a {
+           color: black; 
+       }
+
+       a:hover {
+           cursor: pointer;     
+       }
 
         .btn {
             padding: 1rem 2rem;
@@ -73,7 +63,6 @@
             background-color: #276e76;
         }
 
-       
         /* Media Queries */ 
 
         @media (min-width: 390px) {
@@ -111,17 +100,20 @@
         }
     </style>
 </head>
-
 <body>
 
     <div class="success-box">
         <div class="dots"></div>
         <div class="img-box"></div>
-        <h1>Your e-mail has been sent successfully</h1>
-        <a href="index.html"><button class="btn">Return to Portfolio</button></a>
+        <h1>Imprint</h1>
+        <p>Tatjana Hunekohl</p>
+        <p>Giselastraße 8</p>
+        <p>10317 Berlin</p>
+        <p> <a href="mailto:tatjana.hunekohl@gmail.com">tatjana.hunekohl@gmail.com</a> </p>
+        <p> <a href="tel:+4915226914111">0152 269 141 11</a> </p>
+        
         <div class="shape"></div>
     </div>
-
+    
 </body>
-
 </html>
