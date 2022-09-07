@@ -1,5 +1,11 @@
-footer {
-    height: 20vh; 
+.wrapper {
+    height: 5vh; 
     width: 100vw; 
-    background-color: #f6f6f6; 
+    background-color:  #478990; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-size: 16px; 
+    padding: 0.5rem 0; 
 }
