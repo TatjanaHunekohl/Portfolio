@@ -1,3 +1,4 @@
+import { IndexComponentsComponent } from './index-components/index-components.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { MainComponent } from './main/main.component';
@@ -11,7 +12,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 
 const routes: Routes = [
-  
+  { path: '' , component: IndexComponentsComponent}, 
   { path: 'imprint' , component: ImprintComponent} ,
   { path: 'legal-note' , component: LegalNoteComponent}
 ]

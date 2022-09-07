@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { LegalNoteComponent } from './legal-note/legal-note.component';
 import { ImprintComponent } from './imprint/imprint.component';
+import { IndexComponentsComponent } from './index-components/index-components.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ImprintComponent } from './imprint/imprint.component';
     FooterComponent,
     AboutMeComponent,
     LegalNoteComponent,
-    ImprintComponent
+    ImprintComponent,
+    IndexComponentsComponent
   ],
   imports: [
     BrowserModule,
