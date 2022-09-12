@@ -10,13 +10,13 @@ body {
     overflow: hidden;
 }
 
+
 .success-box {
-    min-width: 33%; 
+    width: 70%;
+    margin: 1rem auto;
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
-    width: max-content;
-    margin: 8rem auto;
     background-color: white;
     border-radius: 4px;
     position: relative;
@@ -25,11 +25,17 @@ body {
     box-shadow: 0 0 3px #ccc;
 }
 
-h1 {
+h1, h2, h3 {
     color: #478990;
     font-size: 0.9rem;
     margin: 2rem 0;
 }
+
+h4 {
+    font-size: 0.9rem; 
+}
+
+
 
 a {
    color: black; 
@@ -66,6 +72,8 @@ a:hover {
     }
 }
 
+
+
 @media (min-width: 580px) {
     .shape {
         height: 395px;
@@ -77,6 +85,7 @@ a:hover {
     }
 
     .dots {
+        display: blocK;
         height: 186px;
         width: 264px;
         position: absolute;
