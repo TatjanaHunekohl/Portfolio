@@ -26,7 +26,6 @@
 
     .blob3 {
         position: absolute;
-        left: 8%;
         height: 318px;
         top: 29%;
         z-index: 3;
@@ -115,7 +114,8 @@ h2 {
     padding: 0.5rem;
     background-color: #1c565c;
     color: white;
-
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
     &:hover {
         cursor: pointer; 
         background-color: #0d5b64;
